@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a,b;
+	cout<<"Enter two numbers whose product you want to find: "<<endl;
+	cout<<"a: " ;
+	cin>>a;
+	cout<<"b: ";
+	cin>>b;
+	float m = a*b;
+	cout<<"The product of the two entered numbers is: "<<a<<" * "<<b<<" = "<<m<<endl;
+	
+	return 0;
+}
